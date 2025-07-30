@@ -1,7 +1,7 @@
 # Watkins Step Counter App
 
 <div align="center">
-  <img src="images/Watkins.jpeg" width="800"/>
+  <img src="images/Watkins.jpeg" width="400"/>
   <p><em>Complete System Architecture - UAV-Based Autonomous Security System</em></p>
 </div>
 
