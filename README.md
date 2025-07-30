@@ -3,7 +3,7 @@
 Watkins is a step counter and walking guidance app available on both Android and iOS. It utilizes mobile device sensors to detect user movement, accurately track steps, and deliver interactive walking instructions through audio-visual feedback.
 
 <div align="center">
-  <img src="images/Watkins.jpeg" width="400"/>
+  <img src="images/watkins.png" width="400"/>
 </div>
 
 ## 🌟 Features
