@@ -1,5 +1,10 @@
 # Watkins Step Counter App
 
+<div align="center">
+  <img src="images/Watkins.jpeg" width="800"/>
+  <p><em>Complete System Architecture - UAV-Based Autonomous Security System</em></p>
+</div>
+
 Watkins is a step counter and walking guidance app available on both Android and iOS. It utilizes mobile device sensors to detect user movement, accurately track steps, and deliver interactive walking instructions through audio-visual feedback.
 
 ## 🌟 Features
