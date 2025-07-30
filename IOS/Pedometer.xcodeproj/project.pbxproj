@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0404709129D05A2E00973F81 /* walk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0404709029D05A2E00973F81 /* walk.mp3 */; };
+		076C77B1B8B17C5E68C802BF /* Pods_Pedometer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C4F982F291324B552F519 /* Pods_Pedometer.framework */; };
+		1749295D29C1F71A0028AF87 /* StartViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749295C29C1F71A0028AF87 /* StartViewController2.swift */; };
+		1749296129C1FDDA0028AF87 /* PedometerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749296029C1FDDA0028AF87 /* PedometerViewController2.swift */; };
+		1749296329C202410028AF87 /* ResultViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749296229C202410028AF87 /* ResultViewController2.swift */; };
+		17BD6B1E2953826A004EFD68 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD6B1D2953826A004EFD68 /* UserDefaults+Extension.swift */; };
+		17DF2D84299AAEC800BA181B /* Pods.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 17DF2D83299AAEC800BA181B /* Pods.xcodeproj */; };
+		17F175C029CF80C600731121 /* 02_Women_moving_forward.gif in Resources */ = {isa = PBXBuildFile; fileRef = 17F175BD29CF80C600731121 /* 02_Women_moving_forward.gif */; };
+		17F175C229CF850B00731121 /* WelcomeRepresentationViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F175C129CF850B00731121 /* WelcomeRepresentationViewController2.swift */; };
+		17F175C429CF892200731121 /* StartViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F175C329CF892200731121 /* StartViewController3.swift */; };
+		17F175C629CF89E600731121 /* PedometerViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F175C529CF89E600731121 /* PedometerViewController3.swift */; };
+		17F175C829CF8B3C00731121 /* ResultViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F175C729CF8B3C00731121 /* ResultViewController3.swift */; };
+		C047ACCE29430CC000C1A10E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047ACCD29430CC000C1A10E /* WelcomeViewController.swift */; };
+		C047ACD0294313D500C1A10E /* WelcomeRepesentatinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047ACCF294313D400C1A10E /* WelcomeRepesentatinViewController.swift */; };
+		C047ACDD294377F600C1A10E /* backward.gif in Resources */ = {isa = PBXBuildFile; fileRef = C047ACD9294377F600C1A10E /* backward.gif */; };
+		C047ACDE294377F600C1A10E /* standup.gif in Resources */ = {isa = PBXBuildFile; fileRef = C047ACDA294377F600C1A10E /* standup.gif */; };
+		C047ACDF294377F600C1A10E /* forward.gif in Resources */ = {isa = PBXBuildFile; fileRef = C047ACDB294377F600C1A10E /* forward.gif */; };
+		C047ACE0294377F600C1A10E /* sitdown.gif in Resources */ = {isa = PBXBuildFile; fileRef = C047ACDC294377F600C1A10E /* sitdown.gif */; };
+		C047ACE62945104900C1A10E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C047ACE2294507B400C1A10E /* Roboto-Regular.ttf */; };
+		C047ACE72945104900C1A10E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C047ACE5294507B400C1A10E /* Roboto-Medium.ttf */; };
+		C047ACE82945104900C1A10E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C047ACE4294507B400C1A10E /* Roboto-Bold.ttf */; };
+		C047ACE92945104900C1A10E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C047ACE3294507B400C1A10E /* Roboto-Black.ttf */; };
+		C047ACF3294708E400C1A10E /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACED294708E400C1A10E /* two.mp3 */; };
+		C047ACF4294708E400C1A10E /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACEE294708E400C1A10E /* three.mp3 */; };
+		C047ACF5294708E400C1A10E /* turn_around_and_walk_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACEF294708E400C1A10E /* turn_around_and_walk_back.mp3 */; };
+		C047ACF6294708E400C1A10E /* stand_up_and_walk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACF0294708E400C1A10E /* stand_up_and_walk.mp3 */; };
+		C047ACF7294708E400C1A10E /* sit_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACF1294708E400C1A10E /* sit_down.mp3 */; };
+		C047ACF8294708E400C1A10E /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C047ACF2294708E400C1A10E /* one.mp3 */; };
+		C073CB5A293D1392008EC463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073CB59293D1392008EC463 /* AppDelegate.swift */; };
+		C073CB5C293D1392008EC463 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073CB5B293D1392008EC463 /* SceneDelegate.swift */; };
+		C073CB5E293D1392008EC463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073CB5D293D1392008EC463 /* ViewController.swift */; };
+		C073CB61293D1392008EC463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C073CB5F293D1392008EC463 /* Main.storyboard */; };
+		C073CB63293D1394008EC463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C073CB62293D1394008EC463 /* Assets.xcassets */; };
+		C073CB66293D1394008EC463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C073CB64293D1394008EC463 /* LaunchScreen.storyboard */; };
+		C073CB71293D2D22008EC463 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073CB70293D2D22008EC463 /* StartViewController.swift */; };
+		C073CB73293E01DF008EC463 /* PedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073CB72293E01DF008EC463 /* PedometerViewController.swift */; };
+		C0BCF86B2942855700A3B370 /* ImageGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BCF86A2942855700A3B370 /* ImageGif.swift */; };
+		C0BCF87229428DDA00A3B370 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BCF87129428DDA00A3B370 /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1749295829C1F0000028AF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DF2D83299AAEC800BA181B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83D3CF0796F3A7D56BCAF549E386B706;
+			remoteInfo = "Pods-Pedometer";
+		};
+		1749295A29C1F0000028AF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DF2D83299AAEC800BA181B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F95953D942C279A34CED5696F48E5839;
+			remoteInfo = SwiftLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0404709029D05A2E00973F81 /* walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = walk.mp3; sourceTree = "<group>"; };
+		1749295C29C1F71A0028AF87 /* StartViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController2.swift; sourceTree = "<group>"; };
+		1749296029C1FDDA0028AF87 /* PedometerViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerViewController2.swift; sourceTree = "<group>"; };
+		1749296229C202410028AF87 /* ResultViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController2.swift; sourceTree = "<group>"; };
+		17BD6B1D2953826A004EFD68 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		17DF2D83299AAEC800BA181B /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		17F175BD29CF80C600731121 /* 02_Women_moving_forward.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 02_Women_moving_forward.gif; sourceTree = "<group>"; };
+		17F175C129CF850B00731121 /* WelcomeRepresentationViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRepresentationViewController2.swift; sourceTree = "<group>"; };
+		17F175C329CF892200731121 /* StartViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController3.swift; sourceTree = "<group>"; };
+		17F175C529CF89E600731121 /* PedometerViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerViewController3.swift; sourceTree = "<group>"; };
+		17F175C729CF8B3C00731121 /* ResultViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController3.swift; sourceTree = "<group>"; };
+		490C4F982F291324B552F519 /* Pods_Pedometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7D2B7ED2EACD012D5CA59A /* Pods-Pedometer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.debug.xcconfig"; path = "Target Support Files/Pods-Pedometer/Pods-Pedometer.debug.xcconfig"; sourceTree = "<group>"; };
+		C047ACCD29430CC000C1A10E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C047ACCF294313D400C1A10E /* WelcomeRepesentatinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRepesentatinViewController.swift; sourceTree = "<group>"; };
+		C047ACD9294377F600C1A10E /* backward.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = backward.gif; sourceTree = "<group>"; };
+		C047ACDA294377F600C1A10E /* standup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = standup.gif; sourceTree = "<group>"; };
+		C047ACDB294377F600C1A10E /* forward.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = forward.gif; sourceTree = "<group>"; };
+		C047ACDC294377F600C1A10E /* sitdown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sitdown.gif; sourceTree = "<group>"; };
+		C047ACE2294507B400C1A10E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C047ACE3294507B400C1A10E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		C047ACE4294507B400C1A10E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		C047ACE5294507B400C1A10E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		C047ACED294708E400C1A10E /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
+		C047ACEE294708E400C1A10E /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
+		C047ACEF294708E400C1A10E /* turn_around_and_walk_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turn_around_and_walk_back.mp3; sourceTree = "<group>"; };
+		C047ACF0294708E400C1A10E /* stand_up_and_walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stand_up_and_walk.mp3; sourceTree = "<group>"; };
+		C047ACF1294708E400C1A10E /* sit_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sit_down.mp3; sourceTree = "<group>"; };
+		C047ACF2294708E400C1A10E /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
+		C073CB56293D1392008EC463 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073CB59293D1392008EC463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C073CB5B293D1392008EC463 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C073CB5D293D1392008EC463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C073CB60293D1392008EC463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C073CB62293D1394008EC463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C073CB65293D1394008EC463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C073CB67293D1394008EC463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C073CB70293D2D22008EC463 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		C073CB72293E01DF008EC463 /* PedometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerViewController.swift; sourceTree = "<group>"; };
+		C0BCF86A2942855700A3B370 /* ImageGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGif.swift; sourceTree = "<group>"; };
+		C0BCF87129428DDA00A3B370 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		FF3EE1476D779B2D5395952F /* Pods-Pedometer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedometer.release.xcconfig"; path = "Target Support Files/Pods-Pedometer/Pods-Pedometer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C073CB53293D1392008EC463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076C77B1B8B17C5E68C802BF /* Pods_Pedometer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1749295429C1F0000028AF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1749295929C1F0000028AF87 /* Pods-Pedometer */,
+				1749295B29C1F0000028AF87 /* SwiftLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D7BCC4441A7C6728A99B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17DF2D83299AAEC800BA181B /* Pods.xcodeproj */,
+				BF7D2B7ED2EACD012D5CA59A /* Pods-Pedometer.debug.xcconfig */,
+				FF3EE1476D779B2D5395952F /* Pods-Pedometer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C047ACE12945070300C1A10E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C047ACE3294507B400C1A10E /* Roboto-Black.ttf */,
+				C047ACE4294507B400C1A10E /* Roboto-Bold.ttf */,
+				C047ACE5294507B400C1A10E /* Roboto-Medium.ttf */,
+				C047ACE2294507B400C1A10E /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C047ACEC2947086600C1A10E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0404709029D05A2E00973F81 /* walk.mp3 */,
+				C047ACF2294708E400C1A10E /* one.mp3 */,
+				C047ACF1294708E400C1A10E /* sit_down.mp3 */,
+				C047ACF0294708E400C1A10E /* stand_up_and_walk.mp3 */,
+				C047ACEE294708E400C1A10E /* three.mp3 */,
+				C047ACEF294708E400C1A10E /* turn_around_and_walk_back.mp3 */,
+				C047ACED294708E400C1A10E /* two.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		C073CB4D293D1392008EC463 = {
+			isa = PBXGroup;
+			children = (
+				C073CB58293D1392008EC463 /* Pedometer */,
+				C073CB57293D1392008EC463 /* Products */,
+				B6D7BCC4441A7C6728A99B4A /* Pods */,
+				F204C9122DD6D6596CE08B75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C073CB57293D1392008EC463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C073CB56293D1392008EC463 /* Pedometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C073CB58293D1392008EC463 /* Pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				C047ACEC2947086600C1A10E /* Sounds */,
+				C047ACE12945070300C1A10E /* Fonts */,
+				C0BCF86C2942862200A3B370 /* Gifs */,
+				C0BCF8692942853900A3B370 /* Extension */,
+				C073CB6F293D13FA008EC463 /* Controllers */,
+				C073CB6E293D13E3008EC463 /* Application */,
+				C073CB6D293D13C7008EC463 /* Storyboard */,
+				C073CB62293D1394008EC463 /* Assets.xcassets */,
+				C073CB67293D1394008EC463 /* Info.plist */,
+			);
+			path = Pedometer;
+			sourceTree = "<group>";
+		};
+		C073CB6D293D13C7008EC463 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C073CB64293D1394008EC463 /* LaunchScreen.storyboard */,
+				C073CB5F293D1392008EC463 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C073CB6E293D13E3008EC463 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C073CB59293D1392008EC463 /* AppDelegate.swift */,
+				C073CB5B293D1392008EC463 /* SceneDelegate.swift */,
+				C073CB5D293D1392008EC463 /* ViewController.swift */,
+				17BD6B1D2953826A004EFD68 /* UserDefaults+Extension.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C073CB6F293D13FA008EC463 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C073CB70293D2D22008EC463 /* StartViewController.swift */,
+				C073CB72293E01DF008EC463 /* PedometerViewController.swift */,
+				C0BCF87129428DDA00A3B370 /* ResultViewController.swift */,
+				C047ACCD29430CC000C1A10E /* WelcomeViewController.swift */,
+				C047ACCF294313D400C1A10E /* WelcomeRepesentatinViewController.swift */,
+				1749295C29C1F71A0028AF87 /* StartViewController2.swift */,
+				1749296029C1FDDA0028AF87 /* PedometerViewController2.swift */,
+				1749296229C202410028AF87 /* ResultViewController2.swift */,
+				17F175C129CF850B00731121 /* WelcomeRepresentationViewController2.swift */,
+				17F175C329CF892200731121 /* StartViewController3.swift */,
+				17F175C529CF89E600731121 /* PedometerViewController3.swift */,
+				17F175C729CF8B3C00731121 /* ResultViewController3.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C0BCF8692942853900A3B370 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0BCF86A2942855700A3B370 /* ImageGif.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C0BCF86C2942862200A3B370 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				17F175BD29CF80C600731121 /* 02_Women_moving_forward.gif */,
+				C047ACD9294377F600C1A10E /* backward.gif */,
+				C047ACDB294377F600C1A10E /* forward.gif */,
+				C047ACDC294377F600C1A10E /* sitdown.gif */,
+				C047ACDA294377F600C1A10E /* standup.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		F204C9122DD6D6596CE08B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490C4F982F291324B552F519 /* Pods_Pedometer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C073CB55293D1392008EC463 /* Pedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C073CB6A293D1394008EC463 /* Build configuration list for PBXNativeTarget "Pedometer" */;
+			buildPhases = (
+				BEAE7C6E678B470B3B9E54EE /* [CP] Check Pods Manifest.lock */,
+				C073CB52293D1392008EC463 /* Sources */,
+				C073CB53293D1392008EC463 /* Frameworks */,
+				C073CB54293D1392008EC463 /* Resources */,
+				BCA29602F3EC8D59066C3307 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pedometer;
+			productName = Pedometer;
+			productReference = C073CB56293D1392008EC463 /* Pedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C073CB4E293D1392008EC463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C073CB55293D1392008EC463 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C073CB51293D1392008EC463 /* Build configuration list for PBXProject "Pedometer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C073CB4D293D1392008EC463;
+			productRefGroup = C073CB57293D1392008EC463 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1749295429C1F0000028AF87 /* Products */;
+					ProjectRef = 17DF2D83299AAEC800BA181B /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C073CB55293D1392008EC463 /* Pedometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1749295929C1F0000028AF87 /* Pods-Pedometer */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-Pedometer";
+			path = Pods_Pedometer.framework;
+			remoteRef = 1749295829C1F0000028AF87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1749295B29C1F0000028AF87 /* SwiftLoader */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = SwiftLoader;
+			path = SwiftLoader.framework;
+			remoteRef = 1749295A29C1F0000028AF87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C073CB54293D1392008EC463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C047ACDF294377F600C1A10E /* forward.gif in Resources */,
+				0404709129D05A2E00973F81 /* walk.mp3 in Resources */,
+				C047ACF7294708E400C1A10E /* sit_down.mp3 in Resources */,
+				17DF2D84299AAEC800BA181B /* Pods.xcodeproj in Resources */,
+				C073CB66293D1394008EC463 /* LaunchScreen.storyboard in Resources */,
+				C047ACE82945104900C1A10E /* Roboto-Bold.ttf in Resources */,
+				C047ACF6294708E400C1A10E /* stand_up_and_walk.mp3 in Resources */,
+				C047ACF3294708E400C1A10E /* two.mp3 in Resources */,
+				C047ACF5294708E400C1A10E /* turn_around_and_walk_back.mp3 in Resources */,
+				C047ACE62945104900C1A10E /* Roboto-Regular.ttf in Resources */,
+				C073CB63293D1394008EC463 /* Assets.xcassets in Resources */,
+				C047ACE92945104900C1A10E /* Roboto-Black.ttf in Resources */,
+				C073CB61293D1392008EC463 /* Main.storyboard in Resources */,
+				17F175C029CF80C600731121 /* 02_Women_moving_forward.gif in Resources */,
+				C047ACDE294377F600C1A10E /* standup.gif in Resources */,
+				C047ACDD294377F600C1A10E /* backward.gif in Resources */,
+				C047ACE0294377F600C1A10E /* sitdown.gif in Resources */,
+				C047ACF8294708E400C1A10E /* one.mp3 in Resources */,
+				C047ACF4294708E400C1A10E /* three.mp3 in Resources */,
+				C047ACE72945104900C1A10E /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCA29602F3EC8D59066C3307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pedometer/Pods-Pedometer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAE7C6E678B470B3B9E54EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pedometer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C073CB52293D1392008EC463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F175C629CF89E600731121 /* PedometerViewController3.swift in Sources */,
+				C073CB5E293D1392008EC463 /* ViewController.swift in Sources */,
+				C047ACCE29430CC000C1A10E /* WelcomeViewController.swift in Sources */,
+				C047ACD0294313D500C1A10E /* WelcomeRepesentatinViewController.swift in Sources */,
+				17F175C229CF850B00731121 /* WelcomeRepresentationViewController2.swift in Sources */,
+				1749296329C202410028AF87 /* ResultViewController2.swift in Sources */,
+				17F175C829CF8B3C00731121 /* ResultViewController3.swift in Sources */,
+				C073CB71293D2D22008EC463 /* StartViewController.swift in Sources */,
+				C0BCF87229428DDA00A3B370 /* ResultViewController.swift in Sources */,
+				C0BCF86B2942855700A3B370 /* ImageGif.swift in Sources */,
+				1749295D29C1F71A0028AF87 /* StartViewController2.swift in Sources */,
+				1749296129C1FDDA0028AF87 /* PedometerViewController2.swift in Sources */,
+				C073CB5A293D1392008EC463 /* AppDelegate.swift in Sources */,
+				C073CB73293E01DF008EC463 /* PedometerViewController.swift in Sources */,
+				17F175C429CF892200731121 /* StartViewController3.swift in Sources */,
+				17BD6B1E2953826A004EFD68 /* UserDefaults+Extension.swift in Sources */,
+				C073CB5C293D1392008EC463 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C073CB5F293D1392008EC463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C073CB60293D1392008EC463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C073CB64293D1394008EC463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C073CB65293D1394008EC463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C073CB68293D1394008EC463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C073CB69293D1394008EC463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C073CB6B293D1394008EC463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7D2B7ED2EACD012D5CA59A /* Pods-Pedometer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RZ244U5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App wants to access for Media";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App wants to access for location to keep you updated about your health";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App wants to access for motion to keep you updated about your health";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Pedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C073CB6C293D1394008EC463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3EE1476D779B2D5395952F /* Pods-Pedometer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = RZ244U5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "App wants to access for Media";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App wants to access for location to keep you updated about your health";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App wants to access for motion to keep you updated about your health";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.Pedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C073CB51293D1392008EC463 /* Build configuration list for PBXProject "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073CB68293D1394008EC463 /* Debug */,
+				C073CB69293D1394008EC463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C073CB6A293D1394008EC463 /* Build configuration list for PBXNativeTarget "Pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073CB6B293D1394008EC463 /* Debug */,
+				C073CB6C293D1394008EC463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C073CB4E293D1392008EC463 /* Project object */;
+}

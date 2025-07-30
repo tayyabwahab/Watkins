@@ -1,0 +1,16 @@
+PODS:
+  - SwiftLoader (1.0.0)
+
+DEPENDENCIES:
+  - SwiftLoader
+
+SPEC REPOS:
+  trunk:
+    - SwiftLoader
+
+SPEC CHECKSUMS:
+  SwiftLoader: f12f3a6fb42576862a3a5eb80c7e59fc881b6982
+
+PODFILE CHECKSUM: 745bf4b1328e370f052b7e066821245e0c73245f
+
+COCOAPODS: 1.11.3
